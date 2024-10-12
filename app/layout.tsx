@@ -25,7 +25,7 @@ export default function RootLayout({
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange>
-            {children}
+            <main className="container mx-auto px-2">{children}</main>
           </ThemeProvider>
         </body>
       </html>
